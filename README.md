@@ -6,3 +6,5 @@ This code is related to a method called Dirichlet Sampling on Manifolds (DSoM) t
 Please cite as: L.S. Prado and T.G. Ritto, Data driven Dirichlet sampling on manifolds, Arxiv:2101.00947; https://arxiv.org/abs/2101.00947v1
 
 The steps of DSoM to generate a new sample point from the original data (N) are the following. (i) K points (K<N) of the original data are randomly selected (ii) the parameters of the Dirichlet distribution are obtained (iv) some data points are generated using the Dirichlet distribution (v) a convex combination is considered to generate one new sample The details can be found in Prado and Ritto (2020), and in the code.
+
+Any misintrepretations about the method are of entire responsability of the user.
